@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "140875501646",
+    "project_id": "card-ladder-mvp",
+    "storage_bucket": "card-ladder-mvp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140875501646:android:c8e43e6be3cc8a96d4731f",
+        "android_client_info": {
+          "package_name": "com.compking.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYjzkn2i556kyVmAP0kM_OBoiu-FgDal0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
