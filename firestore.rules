@@ -1,0 +1,15 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allow read access to all users
+    match /{document=**} {
+      allow read: if true;
+    }
+
+    // Only allow authenticated users to write sales data
+    match /sales/{saleId} {
+      allow create: if request.auth != null;
+      allow update, delete: if false;
+    }
+  }
+}
