@@ -1,9 +1,19 @@
 {
   "functions": {
-    "source": "functions",
-    "runtime": "nodejs22"
+    "runtime": "nodejs22",
+    "runWith": {
+      "gen": "2",
+      "memory": "1GiB",
+      "timeoutSeconds": 120
+    },
+    "source": "functions"
   },
-  "firestore": {
-    "rules": "firestore.rules"
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
   }
 }
